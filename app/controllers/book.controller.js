@@ -103,21 +103,6 @@ exports.update = (req, res) => {
   })
 }
 
-exports.deleteAll = (req, res) => {
-  const id = req.params.id;
-
-  Book.destroy({where: {},
-  truncate:false})
-  .then(nums=>{
-    res.send({message: `${nums} locatários deletados com sucesso`});
-  })
-  .catch(err=>{
-    res.status(500).send({
-      message:
-      err.message || "Erro ao deletar todos os locatários"
-    });
-  });
-};
   
 
 
