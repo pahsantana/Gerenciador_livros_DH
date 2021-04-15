@@ -34,7 +34,7 @@ Desafio da Digital House para DecolaDev de criar um sistema de gerenciador de li
 
 ---------------------------------------------------------
 ### Comandos usados : 
-npm init -y 
-git init -y 
-npm install sequelize mysql2 express uuid
-npm install nodemon -D
+- npm init -y 
+- git init -y 
+- npm install sequelize mysql2 express uuid
+- npm install nodemon -D
