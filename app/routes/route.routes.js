@@ -10,7 +10,7 @@ module.exports = app =>{
     router.get('/books',books.findAll);
     // Retorna os livros de um autor específico
     router.get("/books/:author",books.findByAuthor);
-    //Atualiza book
+    //Atualiza status do livro 
     router.put("/books/:id", books.update);
 
     // Criar novo locatário
